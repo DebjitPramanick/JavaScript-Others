@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 1600px;
+    background-color: rgb(221, 221, 221);
+    box-shadow: rgb(221, 221, 221) 0 0 10px;
+    margin: 60px auto;
+    padding: 40px;
+    min-height: 86vh;
+}
+
+
+.sample-btn{
+    padding: 10px 16px;
+    font-size: 16px;
+    background-color: rgb(49, 255, 159);
+    color: black;
+    cursor: pointer;
+    margin: 10px 20px 0 0;
+    border-radius: 6px;
+    outline: 0;
+    border: 1px solid rgb(165, 165, 165);
+}

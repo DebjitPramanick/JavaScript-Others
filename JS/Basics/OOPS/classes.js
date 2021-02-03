@@ -44,7 +44,7 @@ class Programmer extends Employee{
     }
 
 
-    // In static method we cannot use this
+    // In static method we cannot use 'this' keyword
     static multiply(a,b){
         return a*b;
     }
