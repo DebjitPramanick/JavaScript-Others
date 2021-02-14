@@ -29,3 +29,22 @@ server.listen(8000, "127.0.0.1", () => {
     console.log("Listening to the port number 8000.")
 });
 
+
+
+// Creating event -------------------------------------------------------------
+
+
+const EventEmitter = require('events');
+
+const event = new EventEmitter();
+
+// Emitting event
+
+event.on('print-name', (name) => {
+    console.log(`Your name is ${name}`)
+})
+
+event.emit('print-name', "Debjit");
+
+
+
