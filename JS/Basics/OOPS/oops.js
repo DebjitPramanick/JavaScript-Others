@@ -32,14 +32,13 @@ GenerateTechnology.prototype.getName = () => {
     return this.name;
 }
 GenerateTechnology.prototype.setName = (name) => {
-  return this.name = name;
+    return this.name = name;
 };
 
 
 
 technology1 = new GenerateTechnology("Angular","JS Framework");
 technology2 = new GenerateTechnology("Vue", "JS Framework");
-
 
 
 

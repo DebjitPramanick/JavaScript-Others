@@ -16,7 +16,7 @@ console.log(s.endsWith('student.'))
 console.log(s.includes('He'))
 
 
-console.log(s.slice(-8))
+console.log(s.slice(-10))
 console.log(s.slice(0,8))
 
 console.log(s.split(' ')) // It return array of words in a string

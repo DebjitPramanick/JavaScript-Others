@@ -8,9 +8,17 @@
 let array = [4,8,9,3,5,6];
 
 array.forEach( (e,i,a) => {
-    console.log(e,i);
+    console.log(e,i,a);
 })
 
+let b = array.map((a) => a)
+console.log("Second array b is", b)
+
+let c = array.filter((a) => a%2 === 0)
+console.log("Second array c is", c)
+
+let d = array.reduce((acc,cur) => acc*cur) // -> Will return multiplied result of all elements in the array
+console.log("Value of d is", d)
 
 let obj = {
     name: "Debjit",

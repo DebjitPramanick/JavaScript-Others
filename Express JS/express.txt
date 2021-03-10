@@ -1,0 +1,4 @@
+Things to revise in Express JS
+
+1. Show statuc website on backend server
+2. Template engines (Pug, Moustache, HBS)

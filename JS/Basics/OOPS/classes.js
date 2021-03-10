@@ -33,8 +33,8 @@ class Programmer extends Employee{
     constructor(name, experience, salary,type,language){
         super(name, experience, salary); // super calls the constructor of main classs
 
-        this.type = "Web Developer";
-        this.language = "Python"
+        this.type = type;
+        this.language = language
     }
 
     favLang(){

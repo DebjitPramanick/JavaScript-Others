@@ -4,14 +4,13 @@ const myBtn = document.getElementById("myBtn");
 const myBtn2 = document.getElementById("myBtn2");
 const myContent = document.getElementById("myContent");
 
-myBtn.addEventListener('click',()=>{
-    fetch('https://jsonplaceholder.typicode.com/todos/')
+myBtn.addEventListener('click',async ()=>{
+    const result = await fetch('https://jsonplaceholder.typicode.com/todos/')
     .then(res => {
         return res.json()
     })
-    .then(data => {
-        console.log(data)
-    })
+
+    console.log(result)
 })
 
 
